@@ -1,6 +1,6 @@
 # Awesome-Python-Package-Managers
 
-# Top Python Package Managers Ecosystem
+## Top Python Package Managers Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Deterministic Lockfiles, Fast Resolution & Build Backend Integration*  
