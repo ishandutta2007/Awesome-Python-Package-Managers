@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="40%" stop-color="#0d1527" />
+      <stop offset="80%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8; #818cf8; #34d399; #38bdf8" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8; #f472b6; #38bdf8; #818cf8" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399; #38bdf8; #f472b6; #34d399" dur="12s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.6" />
+      <circle cx="40" cy="40" r="1.2" fill="#38bdf8" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Drop Shadows -->
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.9" />
+    </filter>
+
+    <filter id="pillShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.7" />
+    </filter>
+
+    <filter id="cardGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatSlow1 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(1.5deg); }
+    }
+    @keyframes floatSlow2 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(14px) rotate(-1.5deg); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.08); }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 120; }
+    }
+    @keyframes nodeBlink {
+      0%, 100% { opacity: 0.3; r: 2; }
+      50% { opacity: 0.9; r: 3.5; }
+    }
+
+    .bg-pill-1 { animation: floatSlow1 7s ease-in-out infinite; transform-origin: center; }
+    .bg-pill-2 { animation: floatSlow2 8.5s ease-in-out infinite; transform-origin: center; }
+    .bg-pill-3 { animation: floatSlow1 9.5s ease-in-out infinite 1s; transform-origin: center; }
+    .bg-pill-4 { animation: floatSlow2 6.5s ease-in-out infinite 0.5s; transform-origin: center; }
+    .bg-glow { animation: pulseGlow 8s ease-in-out infinite; transform-origin: center; }
+    .animated-wire { stroke-dasharray: 6 6; animation: dashMove 15s linear infinite; }
+  </style>
+
+  <!-- Deep Slate Background -->
+  <rect width="1200" height="360" fill="url(#bgGradient)" rx="16" />
+
+  <!-- Animated Ambient Glow Blobs in Background -->
+  <ellipse class="bg-glow" cx="240" cy="110" rx="220" ry="120" fill="url(#glowGrad1)" />
+  <ellipse class="bg-glow" cx="960" cy="240" rx="240" ry="140" fill="url(#glowGrad2)" />
+
+  <!-- Geometric Grid Layer -->
+  <rect width="1200" height="360" fill="url(#gridPattern)" rx="16" />
+
+  <!-- Decorative Circuit / Dependency Graph Lines (Background Layer) -->
+  <g class="animated-wire" opacity="0.35">
+    <path d="M 60,80 Q 200,40 380,90 T 700,60 T 1000,100 T 1140,50" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <path d="M 60,300 Q 260,330 480,290 T 820,310 T 1140,280" fill="none" stroke="#a78bfa" stroke-width="1.5" />
+  </g>
+
+  <!-- Background Floating Eco-Pills (Low Opacity, Non-Distracting) -->
+  <g class="bg-pill-1" opacity="0.32">
+    <rect x="75" y="55" width="125" height="34" rx="17" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="137" y="77" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">⚡ uv · 90k★</text>
+  </g>
+
+  <g class="bg-pill-2" opacity="0.32">
+    <rect x="1000" y="55" width="135" height="34" rx="17" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+    <text x="1067" y="77" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">📦 poetry · 34k★</text>
+  </g>
+
+  <g class="bg-pill-3" opacity="0.30">
+    <rect x="80" y="275" width="130" height="34" rx="17" fill="#1e293b" stroke="#34d399" stroke-width="1" />
+    <text x="145" y="297" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">🐍 pip · 10k★</text>
+  </g>
+
+  <g class="bg-pill-4" opacity="0.30">
+    <rect x="990" y="275" width="140" height="34" rx="17" fill="#1e293b" stroke="#f472b6" stroke-width="1" />
+    <text x="1060" y="297" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">❄️ pixi · conda</text>
+  </g>
+
+  <!-- Subtle Border Rim -->
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- ================= FOREGROUND CONTENT (STRICTLY ON TOP) ================= -->
+  <!-- Top Category Tag -->
+  <g filter="url(#pillShadow)">
+    <rect x="460" y="44" width="280" height="32" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" />
+    <circle cx="482" cy="60" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="605" y="65" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" text-anchor="middle">CURATED AWESOME DIRECTORY</text>
+  </g>
+
+  <!-- Main Title -->
+  <g filter="url(#textShadow)">
+    <text x="600" y="152" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="46" font-weight="900" letter-spacing="-0.8" text-anchor="middle">
+      AWESOME PYTHON PACKAGE MANAGERS
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g filter="url(#textShadow)">
+    <text x="600" y="196" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" text-anchor="middle">
+      Modern Packaging Toolchains • Deterministic Resolvers • Lockfiles • PyPI &amp; Enterprise Registries
+    </text>
+  </g>
+
+  <!-- Feature Metric Pills (Foreground, High Contrast, Centered) -->
+  <g transform="translate(195, 235)" filter="url(#pillShadow)">
+    <!-- Pill 1: Speed & Resolvers -->
+    <g transform="translate(0, 0)">
+      <rect width="185" height="42" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.4" fill-opacity="0.9" />
+      <text x="92" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">⚡ 10-100x Fast uv</text>
+    </g>
+
+    <!-- Pill 2: Deterministic Locking -->
+    <g transform="translate(205, 0)">
+      <rect width="200" height="42" rx="10" fill="#1e293b" stroke="#818cf8" stroke-width="1.4" fill-opacity="0.9" />
+      <text x="100" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">🔒 Deterministic Locks</text>
+    </g>
+
+    <!-- Pill 3: Cross-Language & Scientific -->
+    <g transform="translate(425, 0)">
+      <rect width="195" height="42" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="1.4" fill-opacity="0.9" />
+      <text x="97" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">❄️ Pixi &amp; Conda Multi-Env</text>
+    </g>
+
+    <!-- Pill 4: Enterprise SaaS -->
+    <g transform="translate(640, 0)">
+      <rect width="170" height="42" rx="10" fill="#1e293b" stroke="#f472b6" stroke-width="1.4" fill-opacity="0.9" />
+      <text x="85" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">☁️ SaaS Registries</text>
+    </g>
+  </g>
+
+  <!-- Bottom Interactive Cue / Tech Legend -->
+  <text x="600" y="325" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" text-anchor="middle">
+    PEP 517 / 621 • Hash-Pinned Requirements • Isolated Environments • Supply Chain Security
+  </text>
+</svg>
