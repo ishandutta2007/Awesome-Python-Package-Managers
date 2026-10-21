@@ -61,7 +61,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 1. ⚡ [uv](https://github.com/astral-sh/uv) [![GitHub stars](https://img.shields.io/github/stars/astral-sh/uv?style=social&color=white)](https://github.com/astral-sh/uv/stargazers)
+### 1. ⚡ [uv](https://github.com/astral-sh/uv) [![GitHub_Stars](https://img.shields.io/github/stars/astral-sh/uv?style=social&color=white)](https://github.com/astral-sh/uv/stargazers)
 - **Primary Role**: All-in-one Python package, project, tool, and interpreter manager.
 - **License**: MIT / Apache-2.0 (Dual-licensed).
 - **Created By**: Astral (creators of Ruff).
@@ -75,7 +75,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 2. 🔀 [pyenv](https://github.com/pyenv/pyenv) [![GitHub stars](https://img.shields.io/github/stars/pyenv/pyenv?style=social&color=white)](https://github.com/pyenv/pyenv/stargazers)
+### 2. 🔀 [pyenv](https://github.com/pyenv/pyenv) [![GitHub_Stars](https://img.shields.io/github/stars/pyenv/pyenv?style=social&color=white)](https://github.com/pyenv/pyenv/stargazers)
 - **Primary Role**: Simple, unobtrusive Python version manager.
 - **License**: MIT.
 - **Highlights**:
@@ -86,7 +86,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 3. 📦 [Poetry](https://github.com/python-poetry/poetry) [![GitHub stars](https://img.shields.io/github/stars/python-poetry/poetry) ](https://github.com/python-poetry/poetry/stargazers)
+### 3. 📦 [Poetry](https://github.com/python-poetry/poetry) [![GitHub_Stars](https://img.shields.io/github/stars/python-poetry/poetry) ](https://github.com/python-poetry/poetry/stargazers)
 - **Primary Role**: Dependency management, packaging, and publishing toolchain.
 - **License**: MIT.
 - **Highlights**:
@@ -98,7 +98,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 4. 🛡️ [Pipenv](https://github.com/pypa/pipenv) [![GitHub stars](https://img.shields.io/github/stars/pypa/pipenv?style=social&color=white)](https://github.com/pypa/pipenv/stargazers)
+### 4. 🛡️ [Pipenv](https://github.com/pypa/pipenv) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/pipenv?style=social&color=white)](https://github.com/pypa/pipenv/stargazers)
 - **Primary Role**: Python development workflow and dependency locking tool.
 - **License**: MIT.
 - **Maintained By**: Python Packaging Authority (PyPA).
@@ -110,7 +110,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 5. 🌾 [Rye](https://github.com/astral-sh/rye) [![GitHub stars](https://img.shields.io/github/stars/astral-sh/rye?style=social&color=white)](https://github.com/astral-sh/rye/stargazers)
+### 5. 🌾 [Rye](https://github.com/astral-sh/rye) [![GitHub_Stars](https://img.shields.io/github/stars/astral-sh/rye?style=social&color=white)](https://github.com/astral-sh/rye/stargazers)
 - **Primary Role**: Experimental Python project and toolchain manager.
 - **License**: MIT / Apache-2.0.
 - **Created By**: Armin Ronacher (now maintained by Astral).
@@ -122,7 +122,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 6. 🛠️ [pipx](https://github.com/pypa/pipx) [![GitHub stars](https://img.shields.io/github/stars/pypa/pipx?style=social&color=white)](https://github.com/pypa/pipx/stargazers)
+### 6. 🛠️ [pipx](https://github.com/pypa/pipx) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/pipx?style=social&color=white)](https://github.com/pypa/pipx/stargazers)
 - **Primary Role**: Standalone application runner and isolated CLI package manager.
 - **License**: MIT.
 - **Maintained By**: PyPA.
@@ -134,7 +134,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 7. 🐍 [pip](https://github.com/pypa/pip) [![GitHub stars](https://img.shields.io/github/stars/pypa/pip?style=social&color=white)](https://github.com/pypa/pip/stargazers)
+### 7. 🐍 [pip](https://github.com/pypa/pip) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/pip?style=social&color=white)](https://github.com/pypa/pip/stargazers)
 - **Primary Role**: The standard, canonical package installer for Python.
 - **License**: MIT.
 - **Maintained By**: PyPA.
@@ -146,7 +146,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 8. 🚀 [PDM](https://github.com/pdm-project/pdm) [![GitHub stars](https://img.shields.io/github/stars/pdm-project/pdm?style=social&color=white)](https://github.com/pdm-project/pdm/stargazers)
+### 8. 🚀 [PDM](https://github.com/pdm-project/pdm) [![GitHub_Stars](https://img.shields.io/github/stars/pdm-project/pdm?style=social&color=white)](https://github.com/pdm-project/pdm/stargazers)
 - **Primary Role**: Modern Python package and dependency manager supporting PEP 582 & PEP 621.
 - **License**: MIT.
 - **Highlights**:
@@ -157,7 +157,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 9. 🏎️ [Mamba](https://github.com/mamba-org/mamba) [![GitHub stars](https://img.shields.io/github/stars/mamba-org/mamba?style=social&color=white)](https://github.com/mamba-org/mamba/stargazers)
+### 9. 🏎️ [Mamba](https://github.com/mamba-org/mamba) [![GitHub_Stars](https://img.shields.io/github/stars/mamba-org/mamba?style=social&color=white)](https://github.com/mamba-org/mamba/stargazers)
 - **Primary Role**: High-speed C++ reimplementation of Conda package manager.
 - **License**: BSD-3-Clause.
 - **Highlights**:
@@ -168,7 +168,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 10. 📌 [pip-tools](https://github.com/jazzband/pip-tools) [![GitHub stars](https://img.shields.io/github/stars/jazzband/pip-tools?style=social&color=white)](https://github.com/jazzband/pip-tools/stargazers)
+### 10. 📌 [pip-tools](https://github.com/jazzband/pip-tools) [![GitHub_Stars](https://img.shields.io/github/stars/jazzband/pip-tools?style=social&color=white)](https://github.com/jazzband/pip-tools/stargazers)
 - **Primary Role**: Minimalist lockfile generator and synchronization tool for pip workflows.
 - **License**: BSD-3-Clause.
 - **Maintained By**: Jazzband.
@@ -180,7 +180,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 11. ❄️ [Pixi](https://github.com/prefix-dev/pixi) [![GitHub stars](https://img.shields.io/github/stars/prefix-dev/pixi?style=social&color=white)](https://github.com/prefix-dev/pixi/stargazers)
+### 11. ❄️ [Pixi](https://github.com/prefix-dev/pixi) [![GitHub_Stars](https://img.shields.io/github/stars/prefix-dev/pixi?style=social&color=white)](https://github.com/prefix-dev/pixi/stargazers)
 - **Primary Role**: Fast cross-platform, multi-language package manager based on conda-forge.
 - **License**: BSD-3-Clause.
 - **Created By**: Prefix.dev.
@@ -193,7 +193,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 12. 🔬 [Conda](https://github.com/conda/conda) [![GitHub stars](https://img.shields.io/github/stars/conda/conda?style=social&color=white)](https://github.com/conda/conda/stargazers)
+### 12. 🔬 [Conda](https://github.com/conda/conda) [![GitHub_Stars](https://img.shields.io/github/stars/conda/conda?style=social&color=white)](https://github.com/conda/conda/stargazers)
 - **Primary Role**: Cross-platform, language-agnostic binary package and environment manager.
 - **License**: BSD-3-Clause.
 - **Maintained By**: NumFOCUS / Anaconda.
@@ -205,7 +205,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 13. 🐣 [Hatch](https://github.com/pypa/hatch) [![GitHub stars](https://img.shields.io/github/stars/pypa/hatch?style=social&color=white)](https://github.com/pypa/hatch/stargazers)
+### 13. 🐣 [Hatch](https://github.com/pypa/hatch) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/hatch?style=social&color=white)](https://github.com/pypa/hatch/stargazers)
 - **Primary Role**: Modern, extensible Python project and environment orchestrator.
 - **License**: MIT.
 - **Maintained By**: PyPA.
@@ -217,7 +217,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 14. 🌐 [virtualenv](https://github.com/pypa/virtualenv) [![GitHub stars](https://img.shields.io/github/stars/pypa/virtualenv?style=social&color=white)](https://github.com/pypa/virtualenv/stargazers)
+### 14. 🌐 [virtualenv](https://github.com/pypa/virtualenv) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/virtualenv?style=social&color=white)](https://github.com/pypa/virtualenv/stargazers)
 - **Primary Role**: Isolated Python development environment builder.
 - **License**: MIT.
 - **Maintained By**: PyPA.
@@ -229,7 +229,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 15. 🔧 [setuptools](https://github.com/pypa/setuptools) [![GitHub stars](https://img.shields.io/github/stars/pypa/setuptools?style=social&color=white)](https://github.com/pypa/setuptools/stargazers)
+### 15. 🔧 [setuptools](https://github.com/pypa/setuptools) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/setuptools?style=social&color=white)](https://github.com/pypa/setuptools/stargazers)
 - **Primary Role**: The bedrock build backend for Python distribution archives.
 - **License**: MIT.
 - **Maintained By**: PyPA.
@@ -241,7 +241,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 16. 🪶 [Flit](https://github.com/pypa/flit) [![GitHub stars](https://img.shields.io/github/stars/pypa/flit?style=social&color=white)](https://github.com/pypa/flit/stargazers)
+### 16. 🪶 [Flit](https://github.com/pypa/flit) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/flit?style=social&color=white)](https://github.com/pypa/flit/stargazers)
 - **Primary Role**: Minimal, lightweight packaging tool and PEP 517 build backend for pure Python.
 - **License**: BSD-3-Clause.
 - **Maintained By**: PyPA.
@@ -253,7 +253,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 17. 🪢 [Twine](https://github.com/pypa/twine) [![GitHub stars](https://img.shields.io/github/stars/pypa/twine?style=social&color=white)](https://github.com/pypa/twine/stargazers)
+### 17. 🪢 [Twine](https://github.com/pypa/twine) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/twine?style=social&color=white)](https://github.com/pypa/twine/stargazers)
 - **Primary Role**: Secure package publisher for PyPI and private index registries.
 - **License**: Apache-2.0.
 - **Maintained By**: PyPA.
@@ -265,7 +265,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 18. 🏗️ [build](https://github.com/pypa/build) [![GitHub stars](https://img.shields.io/github/stars/pypa/build?style=social&color=white)](https://github.com/pypa/build/stargazers)
+### 18. 🏗️ [build](https://github.com/pypa/build) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/build?style=social&color=white)](https://github.com/pypa/build/stargazers)
 - **Primary Role**: Simple, standards-compliant PEP 517 / PEP 518 package build frontend.
 - **License**: MIT.
 - **Maintained By**: PyPA.
@@ -277,7 +277,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 19. ⚙️ [wheel](https://github.com/pypa/wheel) [![GitHub stars](https://img.shields.io/github/stars/pypa/wheel?style=social&color=white)](https://github.com/pypa/wheel/stargazers)
+### 19. ⚙️ [wheel](https://github.com/pypa/wheel) [![GitHub_Stars](https://img.shields.io/github/stars/pypa/wheel?style=social&color=white)](https://github.com/pypa/wheel/stargazers)
 - **Primary Role**: Reference implementation of the Python binary wheel distribution format (PEP 427).
 - **License**: MIT.
 - **Maintained By**: PyPA.
@@ -288,7 +288,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 20. 🔒 [conda-lock](https://github.com/conda/conda-lock) [![GitHub stars](https://img.shields.io/github/stars/conda/conda-lock?style=social&color=white)](https://github.com/conda/conda-lock/stargazers)
+### 20. 🔒 [conda-lock](https://github.com/conda/conda-lock) [![GitHub_Stars](https://img.shields.io/github/stars/conda/conda-lock?style=social&color=white)](https://github.com/conda/conda-lock/stargazers)
 - **Primary Role**: Multi-platform lockfile generator for Conda environments.
 - **License**: MIT.
 - **Maintained By**: Conda Incubator.
@@ -299,7 +299,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 21. 🧱 [scikit-build-core](https://github.com/scikit-build/scikit-build-core) [![GitHub stars](https://img.shields.io/github/stars/scikit-build/scikit-build-core?style=social&color=white)](https://github.com/scikit-build/scikit-build-core/stargazers)
+### 21. 🧱 [scikit-build-core](https://github.com/scikit-build/scikit-build-core) [![GitHub_Stars](https://img.shields.io/github/stars/scikit-build/scikit-build-core?style=social&color=white)](https://github.com/scikit-build/scikit-build-core/stargazers)
 - **Primary Role**: Next-generation Python CMake adapter and PEP 517 build backend for C/C++ extensions.
 - **License**: Apache-2.0.
 - **Highlights**:
@@ -310,7 +310,7 @@ The open-source Python packaging ecosystem includes package installers, lockfile
 
 ---
 
-### 22. ⚡ [meson-python](https://github.com/mesonbuild/meson-python) [![GitHub stars](https://img.shields.io/github/stars/mesonbuild/meson-python?style=social&color=white)](https://github.com/mesonbuild/meson-python/stargazers)
+### 22. ⚡ [meson-python](https://github.com/mesonbuild/meson-python) [![GitHub_Stars](https://img.shields.io/github/stars/mesonbuild/meson-python?style=social&color=white)](https://github.com/mesonbuild/meson-python/stargazers)
 - **Primary Role**: PEP 517 build backend for Meson-based projects.
 - **License**: MIT.
 - **Maintained By**: Meson Build System.
